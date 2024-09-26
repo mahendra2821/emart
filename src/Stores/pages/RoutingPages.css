@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'roboto' , sans-serif; 
+}
+
+.pageSection {
+    display: grid;
+    grid-template-columns: repeat(4 , 300px);
+    gap: 70px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+  
+}
+.pageImg {
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+}
+.pageImage img {
+  
+    width: 70px;
+
+}
+.fullpage {
+    display: flex;
+    background-color: rgb(184, 177, 177);
+    overflow-y: hidden;
+    
+}
+.pro-selected {
+    background-color: rgb(45, 37, 1);
+    height: 100%;
+    width: 30%;
+    border: 3px solid rgb(38, 0, 0);
+
+}
+.pro-input input {
+    margin-left: 10px;
+    color: blue;  
+    margin-top: 20px;
+}
+.pro-input {
+    margin-right: 10px;
+    color: rgb(140, 249, 229);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.proModel {
+    color: rgb(5, 0, 0);
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 599px) {
+    .pro-selected {
+        background-color: rgb(45, 37, 1);
+        height: 100%;
+        width: 150%;
+        border: 3px solid rgb(38, 0, 0);
+    
+    }
+    .pro-input input {
+        margin-left: 45px;
+        height: 20px;
+        margin-top: 15px;
+    }
+    .pro-input {
+        margin-right: 10px;
+        color: rgb(140, 249, 229);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-left: 20px;
+        font-size: 15px;
+    }
+
+   
+    .fullpage {
+        display: flex;
+        background-color: rgb(184, 177, 177);
+        width: 150%;
+        
+
+    }
+
+   
+   
+
+}

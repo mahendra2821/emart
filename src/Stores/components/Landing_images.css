@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'roboto' , sans-serif; 
+
+  
+}
+body {
+    background-image: radial-gradient(rgb(0, 130, 150), rgb(83, 108, 95), rgb(58, 60, 60));  
+      color: rgb(23, 253, 242);
+      width: 100%;
+
+}
+.proSection {
+    display: flex;
+   
+    background-color: rgb(204, 213, 157);
+        border:2px solid rgb(0, 47, 2);
+    margin: 50px;
+
+ 
+
+}
+.imgBox {
+    width: 90%;
+    padding-left: 20px;
+    height: 100%;
+    margin:10px ;
+    border: 2px solid;
+    border-color: rgb(242, 10, 145);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(60, 50, 38);
+
+}
+.ProImage {
+    width: 100%;
+    height: 30vh;
+    width: 15vw;
+    border-radius: 40px;
+    padding: 20px;
+  
+}
+
+.proTitle h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: none;
+    
+    color: rgb(191, 219, 10); 
+    width: 100%;
+    margin-left: 20px;
+    font-size: 25px;
+     margin-top: 30px;
+    height: 100%;
+
+   
+}
+
+@media only screen and (min-width: 320px) and (max-width: 599px) {
+
+    .proSection {
+        display: flex;    
+        background-color: rgb(204, 213, 157);
+        border:2px solid rgb(0, 47, 2);
+        margin: 10px;
+        width: 150vw;
+        overflow-y: hidden;
+     
+    }
+    body {
+        background-image: radial-gradient(rgb(0, 130, 150), rgb(83, 108, 95), rgb(58, 60, 60));  
+          color: rgb(23, 253, 242);
+    
+    }
+        .imgBox {
+            width: 100%;
+            padding-left: 20px;
+            height: 100%;
+            margin: 20px;
+            border: 2px solid;
+            border-color: rgb(242, 10, 145);
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            background-color: rgb(60, 50, 38);
+        
+        }
+        .ProImage {
+            width: 100%;
+            height: 30vh;
+            width: 40vw;
+            border-radius: 40px;
+            padding: 20px;
+          
+        }
+        .proTitle h2{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            text-decoration: none;
+            
+            color: rgb(1, 248, 198); 
+            width: 100%;
+            margin-left: 20px;
+            font-size: 25px;
+             margin-top: 30px;
+            height: 100%;
+         
+}
+}

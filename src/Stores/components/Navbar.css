@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'roboto' , sans-serif; 
+}
+
+.navsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(rgb(248, 196, 251), rgb(136, 228, 233), rgb(80, 196, 211));    color: rgb(23, 253, 242);
+    height:80px ;
+  
+  }
+.title h2 {
+    margin: 25px;
+    font-size: 40px;
+    color: rgb(50, 21, 2);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration:underline;
+    text-shadow: 30px;
+    text-decoration-color: rgb(43, 42, 44);
+   
+  }
+.user {
+  margin: 20px;
+  display: flex;
+  font-weight: bold;
+  font-family: 'roboto';
+  font-size: 20px;
+  
+
+}
+
+
+input {
+  height: 35px;
+  width: 20vw;
+  border-radius: 10px;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+.subMenu ul li {
+  list-style: none;
+  margin: 26px;
+  margin-top: 10px;
+  color: #000322;
+  margin-left: 40px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.subMenu {
+  
+  background-image: linear-gradient(rgb(240, 233, 224), rgb(197, 241, 236), rgb(149, 147, 142));
+  background-size: cover;
+  height: 50px;
+  overflow-y:hidden;
+  border: 2px solid black;
+ 
+
+
+
+}
+.subMenu ul {
+  display: inline-flex;
+  
+
+}
+
+.user-details {
+  
+  color: rgb(12, 1, 1);
+  font-size: 25px;
+  margin-top: 5px;
+  margin-right:15px;
+  font-weight: bold;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.cart {
+  color: rgb(12, 1, 1);
+  font-size: 25px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.span2{
+  font-size:35px ;
+  text-decoration: none;
+
+}
+span {
+  color: rgb(15, 142, 4);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+  
+
+
+@media only screen and (min-width: 320px) and (max-width: 599px) {
+    
+      .title h2 {
+        margin: 25px;
+        font-size: 30px;
+        color: rgb(50, 21, 2);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration:underline;
+        text-shadow: 30px;
+        text-decoration-color: rgb(43, 42, 44);
+       
+      }
+      
+.navsection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(rgb(248, 196, 251), rgb(136, 228, 233), rgb(80, 196, 211));    color: rgb(23, 253, 242);
+  height:80px ;
+  width: 155%;
+}
+.user {
+  display: flex;
+  margin: 20px;
+  font-family: 'roboto';
+  font-size: 10x;
+}
+      
+
+.user-details {
+  
+  color: rgb(12, 1, 1);
+  font-size: 15px;
+margin-top: 15px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}.cart {
+  color: rgb(12, 1, 1);
+  font-size: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+span {
+  color: rgb(15, 142, 4);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+input {
+  height: 10px;
+  width: 30vw;
+  border-radius: 10px;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+.subMenu {
+  
+  background-image: linear-gradient(rgb(240, 233, 224), rgb(197, 241, 236), rgb(149, 147, 142));
+  background-size: cover;
+  height: 50px;
+  overflow-y:hidden;
+}
+.subMenu {
+  
+  background-image: linear-gradient(rgb(240, 233, 224), rgb(197, 241, 236), rgb(149, 147, 142));
+  background-size: cover;
+  height: 40px;
+  width: 155%;
+  overflow-y:hidden;
+  border: 2px solid black;
+}
+.subMenu ul li {
+  list-style: none;
+  margin: 10px;
+  margin-top: 10px;
+  color: #000322;
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+  
+    
+}

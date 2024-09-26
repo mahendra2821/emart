@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'roboto' , sans-serif; 
+}
+
+.y-cart {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    text-decoration: underline;
+
+color:rgb(243, 122, 122);
+font-weight: bold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.empty {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+
+color:silver;
+font-weight: bold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cart-section{
+    margin-top: 40px;
+    margin-left:40vw;
+    display: flex;
+   
+}
+.cart-details  {
+    color: rgb(38, 1, 9);
+    margin-left: 70px;
+    margin-top: 30px;
+
+
+}
+
+.removeBtn {
+    color: antiquewhite;
+    background-color: rgb(215, 42, 94);
+    width: 20vh;
+    border: 3px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+
+
+
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 599px) {
+
+    
+
+    .cart-section{
+        margin-top: 40px;
+        margin-left:10vw;
+        display: flex;
+       
+    }
+    .cart-details  {
+        color: rgb(38, 1, 9);
+        margin-left: 60px;
+        margin-top: 30px;
+    
+    
+    }
+    
+    .removeBtn {
+        color: antiquewhite;
+        background-color: rgb(215, 42, 94);
+        width: 20vh;
+        border: 3px solid;
+        border-radius: 10px;
+        margin-top: 20px;
+    
+    
+    
+    }
+    
+}    
